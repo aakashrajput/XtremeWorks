@@ -13,21 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-//Main Site Routes
-
 Route::get('/', function () {
-    return view('site.index');
-});
-
-Route::get('/about', function () {
-    return view('site.about');
-});
-
-Route::get('/login', function () {
-    return view('site.login');
-});
-
-Route::get('/register', function () {
-    return view('site.register');
+    return view('user.index');
 });

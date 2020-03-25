@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-//Main Site Routes
-
 Route::get('/', function () {
     return view('site.index');
 });
